@@ -1,0 +1,8 @@
+Leaflet.js for DataCouch
+
+Based on the Polymapper tool already on DataCouch
+Takes in a DataCouch GeoJSON feed and creates a map in Leaflet.js
+
+I've tested a static/sandbox version on http://mapmeld.com/GeoCouch.html
+
+Tweet @mapmeld if there are files missing or this isn't running right
