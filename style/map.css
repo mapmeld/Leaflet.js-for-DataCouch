@@ -20,10 +20,6 @@ h2 {
   border-top: 1px solid #313131;
 }
 
-path, circle {
-  stroke: #000;
-}
-
 .map_container {
   position: absolute;
   top: 0px;
@@ -126,85 +122,6 @@ a:hover {
   color: #fff799;
   font-family: "Geneva";
   font-size: 14px;
-}
-
-
-/*POLYMAPS*/
-
-html, body {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  background: #E5E0D9;
-}
-
-svg {
-  display: block;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-}
-
-#copy {
-  position: absolute;
-  left: 0;
-  bottom: 4px;
-  padding-left: 5px;
-  font: 9px sans-serif;
-  color: #fff;
-  cursor: default;
-}
-
-#copy a {
-  color: #fff;
-}
-
-.compass .back {
-  fill: #eee;
-  fill-opacity: .8;
-}
-
-.compass .fore {
-  stroke: #999;
-  stroke-width: 1.5px;
-}
-
-.compass rect.back.fore {
-  fill: #999;
-  fill-opacity: .3;
-  stroke: #eee;
-  stroke-width: 1px;
-  shape-rendering: crispEdges;
-}
-
-.compass .direction {
-  fill: none;
-}
-
-.compass .chevron {
-  fill: none;
-  stroke: #999;
-  stroke-width: 5px;
-}
-
-.compass .zoom .chevron {
-  stroke-width: 4px;
-}
-
-.compass .active .chevron, .compass .chevron.active {
-  stroke: #fff;
-}
-
-.compass.active .active .direction {
-  fill: #999;
-}
-#dialog ul {
-  list-style-type: none;
-  padding: 0px;
-  font-size: 12px;
-  font-family: georgia;
 }
 
 .maptip h2{min-height:14px;font-size:14px;background:#e0e0e0 -webkit-gradient(linear,left top,left bottom,from(#e0e0e0),to(#cfcfcf));background:#e0e0e0 -moz-linear-gradient(top,#e0e0e0,#cfcfcf);-moz-box-shadow:inset 0 1px -1px #fff;-webkit-box-shadow:inset 0 -1px 1px rgba(255,255,255,0.3);box-shadow:inset 0 -2px 1px rbga(255,255,255,0.4);border-bottom:1px solid #bbb;padding:5px;position:relative;}.maptip h2 span.badge{font-size:16px;}.maptip h2 a{color:#333;}
